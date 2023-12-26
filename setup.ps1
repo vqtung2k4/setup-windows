@@ -24,12 +24,13 @@ Write-Done
 
 Write-Start -msg "Initializing Scoop..."
 	scoop install git
-	sccop bucket add extras
+	scoop bucket add extras
 	scoop update
 Write-done
 
-Write-Start -msg "Insatlling Scoop's packages"
+Write-Start -msg "Installing Scoop's packages"
 	scoop install googlechrome
 	scoop install vscode
 	scoop install vcredist-aio
+	scoop install firefox
 Write-done
